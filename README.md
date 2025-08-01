@@ -9,7 +9,7 @@ A production-ready e-commerce frontend built with React 18, Tailwind CSS, and mo
 ## 🚀 Live Demo
 
 - You can view the deployed project here:  
-  [👉 Live Demo](https:/ecommerce-react-hnvfmgnnw-mahas-projects-1b56712f.vercel.app)
+  [👉 Live Demo](https://ecommerce-react-app-eta-flax.vercel.app/)
 
 ## ✨ Features
 
