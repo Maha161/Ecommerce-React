@@ -1,8 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import { useContext, useEffect, useState } from "react";
 import logoImage from "../../assets/images/image.png";
-import styles from "./navbar.module.css";
-import './Navbar.module.css';
+import styles from "./Navbar.module.css";
 import { UserContext } from "../../context/User.context";
 import { CartContext } from "../../context/Cart.context";
 import { WishlistContext } from "../../context/Wishlist.context";
