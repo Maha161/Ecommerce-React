@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply px-4 py-1 bg-primary-600 rounded-md w-full hover:bg-primary-700 transition-colors duration-300;
+  }
+  .form-control {
+    @apply w-full px-2 py-1 rounded-md border-2 border-gray-400 placeholder:text-sm border-opacity-50 focus:outline-none focus:border-primary-500;
+  }
+}
+
+body {
+  font-family: "DM Sans Variable", sans-serif;
+  background-color: #f9fafb;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+.swiper .swiper-button-prev {
+  display: none !important;
+}
+
+.back {
+  margin-top: -40px;
+}
