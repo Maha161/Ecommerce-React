@@ -6,6 +6,11 @@ A production-ready e-commerce frontend built with React 18, Tailwind CSS, and mo
 
 ---
 
+## 🚀 Live Demo
+
+- You can view the deployed project here:  
+  [👉 Live Demo](https:/ecommerce-react-hnvfmgnnw-mahas-projects-1b56712f.vercel.app)
+
 ## ✨ Features
 
 - **User Authentication:** Sign up, log in, log out, and secure password reset functionality using tokens
@@ -146,4 +151,5 @@ http://localhost:5173
 _Frontend Developer_
 
 ---
-"# Ecommerce-React-App" 
+
+"# Ecommerce-React-App"
