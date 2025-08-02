@@ -123,7 +123,7 @@ export default function Navbar() {
             <div className="relative">
               <button
                 onClick={toggleDropdown}
-                className="hover:text-primary-600 flex items-center gap-1 transition-colors"
+                className="hover:text-primary-600 flex items-end gap-1 transition-colors"
               >
                 <i className="far fa-user text-xl"></i>
                 {token && <span className="text-sm hidden md:inline outline-none">Account</span>}
@@ -167,14 +167,15 @@ export default function Navbar() {
                 </div>
               )}
             </div>
-          </div>
-
-          <button 
-            className={`lg:hidden ${styles.mobileMenuButton}`}
-            onClick={toggleMobileNav}
-          >
+            <button 
+              className={`lg:hidden ${styles.mobileMenuButton}`}
+              onClick={toggleMobileNav}
+            >
             <i className={`fas ${isMobileNavOpen ? 'fa-times' : 'fa-bars'}`}></i>
           </button>
+          </div>
+
+       
         </div>
 
         <div className={`${styles.mobileNav} ${isMobileNavOpen ? styles.mobileNavOpen : ''}`}>
